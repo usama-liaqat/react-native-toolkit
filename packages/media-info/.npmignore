@@ -1,0 +1,15 @@
+# Build artifacts
+ios/build/
+android/build/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+
+# Tests & mocks
+**/__tests__/
+**/__fixtures__/
+**/__mocks__/
+
+# Hidden files
+.*
