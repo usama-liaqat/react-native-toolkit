@@ -3107,6 +3107,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-native-toolkit/cookies@workspace:packages/cookies":
+  version: 0.0.0-use.local
+  resolution: "@react-native-toolkit/cookies@workspace:packages/cookies"
+  dependencies:
+    "@release-it/conventional-changelog": "npm:^10.0.1"
+    "@types/jest": "npm:^29.5.14"
+    "@types/react": "npm:^19.1.0"
+    jest: "npm:^29.7.0"
+    react: "npm:19.1.0"
+    react-native: "npm:0.81.1"
+    release-it: "npm:^19.0.4"
+    typescript: "npm:^5.9.2"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  languageName: unknown
+  linkType: soft
+
 "@react-native-toolkit/media-info@workspace:*, @react-native-toolkit/media-info@workspace:packages/media-info":
   version: 0.0.0-use.local
   resolution: "@react-native-toolkit/media-info@workspace:packages/media-info"
@@ -12387,7 +12405,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.9.3":
+"typescript@npm:^5.9.2, typescript@npm:^5.9.3":
   version: 5.9.3
   resolution: "typescript@npm:5.9.3"
   bin:
@@ -12397,7 +12415,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.9.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.9.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.9.3#optional!builtin<compat/typescript>":
   version: 5.9.3
   resolution: "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"
   bin:

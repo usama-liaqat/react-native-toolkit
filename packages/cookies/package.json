@@ -1,7 +1,7 @@
 {
-  "name": "@react-native-toolkit/media-info",
+  "name": "@react-native-toolkit/cookies",
   "version": "0.0.1",
-  "description": "Media Info",
+  "description": "react native cookies",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -46,18 +46,18 @@
     "react": "19.1.0",
     "react-native": "0.81.1",
     "release-it": "^19.0.4",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.2"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
   "codegenConfig": {
-    "name": "MediaInfoSpec",
+    "name": "CookiesSpec",
     "type": "modules",
     "jsSrcsDir": "src",
     "android": {
-      "javaPackageName": "com.mediainfo"
+      "javaPackageName": "com.cookies"
     }
   },
   "create-react-native-library": {
