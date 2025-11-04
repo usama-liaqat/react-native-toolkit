@@ -3107,7 +3107,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-toolkit/cookies@workspace:packages/cookies":
+"@react-native-toolkit/cookies@workspace:*, @react-native-toolkit/cookies@workspace:packages/cookies":
   version: 0.0.0-use.local
   resolution: "@react-native-toolkit/cookies@workspace:packages/cookies"
   dependencies:
@@ -4765,6 +4765,7 @@ __metadata:
     "@react-native-community/cli": "npm:20.0.0"
     "@react-native-community/cli-platform-android": "npm:20.0.0"
     "@react-native-community/cli-platform-ios": "npm:20.0.0"
+    "@react-native-toolkit/cookies": "workspace:*"
     "@react-native-toolkit/media-info": "workspace:*"
     "@react-native/babel-preset": "npm:0.82.1"
     "@react-native/eslint-config": "npm:0.82.1"
