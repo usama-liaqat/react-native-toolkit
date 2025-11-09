@@ -35,8 +35,16 @@
   },
   "homepage": "https://github.com/usama-liaqat/react-native-toolkit#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
+  "contributors": [
+    {
+      "name": "Usama Liaqat",
+      "email": "m.usama.liaqat@gmail.com",
+      "url": "https://github.com/usama-liaqat"
+    }
+  ],
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.1",
     "@types/jest": "^29.5.14",

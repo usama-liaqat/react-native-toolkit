@@ -8,8 +8,6 @@
     "after:release": "echo Successfully released ${name} v${version} from repository ${repo.repository}."
   },
   "git": {
-    "tag": false,
-    "push": false,
     "commitMessage": "chore: release ${version}",
     "requireCleanWorkingDir": true,
     "tagAnnotation": "Release v${version}",
