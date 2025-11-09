@@ -9,7 +9,8 @@
     "example": "examples"
   },
   "scripts": {
-    "bare-app": "yarn workspace bare-app"
+    "bare-app": "yarn workspace bare-app",
+    "lint": "eslint"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.8.1",
@@ -21,7 +22,7 @@
     "@react-native/babel-preset": "0.81.1",
     "@react-native/eslint-config": "^0.81.1",
     "commitlint": "^19.8.1",
-    "eslint": "^9.35.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.6.2",

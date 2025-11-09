@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const pkg = require('./package.json');
+const modules = require('./modules.json');
 
 class Monorepo {
   /**
@@ -28,9 +29,7 @@ class Monorepo {
    * Packages declared in current project's package.json (workspace references).
    * @type {Array<string>}
    */
-  static workspaceDeps = Object.entries(pkg.dependencies || {})
-    .filter(([, version]) => version === 'workspace:*')
-    .map(([name]) => name);
+  static workspaceDeps = modules;
 
   /**
    * Finds the absolute path for a given package name by reading all package.json files.
