@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c4f1fa2-20d0-49bb-9d2c-d3064d55c052" name="Changes" comment="chore: cookie library added">
-      <change afterPath="$PROJECT_DIR$/packages/cookies/android/src/main/java/com/cookies/CookieManagerService.kt" afterDir="false" />
+    <list default="true" id="9c4f1fa2-20d0-49bb-9d2c-d3064d55c052" name="Changes" comment="chore: updated cookies library for android">
+      <change afterPath="$PROJECT_DIR$/examples/BareApp/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/BareApp/ios/Podfile.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/BareApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/BareApp/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cookies/android/src/main/java/com/cookies/CookiesModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/android/src/main/java/com/cookies/CookiesModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cookies/ios/Cookies.h" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/ios/Cookies.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cookies/ios/Cookies.mm" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/ios/Cookies.mm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cookies/src/NativeCookies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/src/NativeCookies.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/media-info/src/NativeMediaInfo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/media-info/src/NativeMediaInfo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cookies/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +123,10 @@
       <workItem from="1762020164456" duration="207000" />
       <workItem from="1762086371604" duration="1196000" />
       <workItem from="1762188965573" duration="1222000" />
-      <workItem from="1762240119272" duration="4380000" />
+      <workItem from="1762240119272" duration="4455000" />
+      <workItem from="1762248775691" duration="504000" />
+      <workItem from="1762340013178" duration="615000" />
+      <workItem from="1762672245611" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -204,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762087260406</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="chore: updated cookies library for android">
+      <option name="closed" value="true" />
+      <created>1762247867181</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762247867181</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +241,7 @@
     <MESSAGE value="chore: cookies library added" />
     <MESSAGE value="chore: init" />
     <MESSAGE value="chore: cookie library added" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: cookie library added" />
+    <MESSAGE value="chore: updated cookies library for android" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: updated cookies library for android" />
   </component>
 </project>

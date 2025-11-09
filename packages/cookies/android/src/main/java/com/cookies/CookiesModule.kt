@@ -15,8 +15,6 @@ class CookiesModule(reactContext: ReactApplicationContext) :
     return NAME
   }
 
-
-
   override fun setValue(url: String?, cookie: ReadableMap, useWebKit: Boolean?, promise: Promise) {
     cookieManagerService.set(url, cookie, useWebKit, promise)
   }

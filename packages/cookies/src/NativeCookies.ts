@@ -16,7 +16,6 @@ export interface Cookies {
 }
 
 export interface Spec extends TurboModule {
-  multiply(a: number, b: number): number;
   setValue(url: string, cookie: Cookie, useWebKit?: boolean): Promise<boolean>;
   setFromResponse(url: string, cookie: string): Promise<boolean>;
 

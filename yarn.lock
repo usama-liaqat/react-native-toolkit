@@ -3125,7 +3125,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native-toolkit/media-info@workspace:*, @react-native-toolkit/media-info@workspace:packages/media-info":
+"@react-native-toolkit/media-info@workspace:packages/media-info":
   version: 0.0.0-use.local
   resolution: "@react-native-toolkit/media-info@workspace:packages/media-info"
   dependencies:
@@ -4766,7 +4766,6 @@ __metadata:
     "@react-native-community/cli-platform-android": "npm:20.0.0"
     "@react-native-community/cli-platform-ios": "npm:20.0.0"
     "@react-native-toolkit/cookies": "workspace:*"
-    "@react-native-toolkit/media-info": "workspace:*"
     "@react-native/babel-preset": "npm:0.82.1"
     "@react-native/eslint-config": "npm:0.82.1"
     "@react-native/metro-config": "npm:0.82.1"
