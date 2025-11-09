@@ -1,3 +1,4 @@
+yarn-*.cjs binary
 *.pbxproj -text
 # specific for windows script files
 *.bat text eol=crlf

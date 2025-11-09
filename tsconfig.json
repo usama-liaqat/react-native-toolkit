@@ -2,7 +2,8 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "@react-native-toolkit/media-info": ["./packages/media-info/src/index"]
+      "@react-native-toolkit/media-info": ["./packages/media-info/src/index"],
+      "@react-native-toolkit/cookies": ["./packages/cookies/src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
@@ -26,5 +27,6 @@
     "strict": true,
     "target": "ESNext",
     "verbatimModuleSyntax": true
-  }
+  },
+  "exclude": ["packages/*/lib"]
 }

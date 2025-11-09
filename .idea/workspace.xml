@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c4f1fa2-20d0-49bb-9d2c-d3064d55c052" name="Changes" comment="chore: update release config">
-      <change afterPath="$PROJECT_DIR$/packages/cookies/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cookies/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cookies/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/media-info/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/media-info/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/media-info/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/media-info/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +127,7 @@
       <workItem from="1762240119272" duration="4455000" />
       <workItem from="1762248775691" duration="504000" />
       <workItem from="1762340013178" duration="615000" />
-      <workItem from="1762672245611" duration="6977000" />
+      <workItem from="1762672245611" duration="7428000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -323,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762682886135</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="chore: update release config">
+      <option name="closed" value="true" />
+      <created>1762683244082</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1762683244082</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
