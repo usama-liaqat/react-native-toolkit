@@ -1,5 +1,5 @@
 {
-  "name": "@react-native-toolkit/media-info",
+  "name": "@react-native-studio/media-info",
   "version": "0.0.0",
   "description": "Media Info",
   "main": "./lib/module/index.js",
@@ -27,14 +27,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usama-liaqat/react-native-toolkit.git"
+    "url": "git+https://github.com/usama-liaqat/react-native-studio.git"
   },
   "author": "Usama Liaqat <m.usama.liaqat@gmail.com> (https://github.com/usama-liaqat)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/usama-liaqat/react-native-toolkit/issues"
+    "url": "https://github.com/usama-liaqat/react-native-studio/issues"
   },
-  "homepage": "https://github.com/usama-liaqat/react-native-toolkit#readme",
+  "homepage": "https://github.com/usama-liaqat/react-native-studio#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

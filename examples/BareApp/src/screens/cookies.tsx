@@ -9,8 +9,8 @@ import {
   Alert,
 } from 'react-native';
 // import WebView from 'react-native-webview';
-import type { Cookies } from '@react-native-toolkit/cookies'; // replace with actual import
-import { CookieManager } from '@react-native-toolkit/cookies'; // replace with actual import
+import type { Cookies } from '@react-native-studio/cookies'; // replace with actual import
+import { CookieManager } from '@react-native-studio/cookies'; // replace with actual import
 
 export default function CookiesTestScreen() {
   const [url, setUrl] = useState('https://example.com');

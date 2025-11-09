@@ -1,11 +1,11 @@
-# 🧰 React Native Toolkit Monorepo
+# 🧰 React Native Studio Monorepo
 
 A collection of **modern, production-ready React Native libraries** built for scalability, performance, and developer experience — all under a unified toolkit.
 
 This monorepo powers libraries like:
 
-- [`@react-native-toolkit/cookies`](./packages/cookies) — Cookie Manager for React Native (iOS + Android)
-- [`@react-native-toolkit/media-info`](./packages/media-info) — Extract and manage media metadata (e.g. duration, resolution, codec info)
+- [`@react-native-studio/cookies`](./packages/cookies) — Cookie Manager for React Native (iOS + Android)
+- [`@react-native-studio/media-info`](./packages/media-info) — Extract and manage media metadata (e.g. duration, resolution, codec info)
 
 Each package is independently versioned and published to npm, with full TypeScript support and native code integration.
 
@@ -15,7 +15,7 @@ Each package is independently versioned and published to npm, with full TypeScri
 
 ```
 .
-├── packages/               # Source code for each React Native Toolkit package
+├── packages/               # Source code for each React Native Studio package
 │   ├── cookies/            # Cookie Manager (iOS + Android)
 │   └── media-info/         # Media Info utility
 │
@@ -67,8 +67,8 @@ yarn android
 
 | Package | Description | Version | Docs |
 |----------|--------------|----------|------|
-| [`@react-native-toolkit/cookies`](./packages/cookies) | Manage cookies on iOS & Android | — | [README](./packages/cookies/README.md) |
-| [`@react-native-toolkit/media-info`](./packages/media-info) | Extract metadata from media files | — | [README](./packages/media-info/README.md) |
+| [`@react-native-studio/cookies`](./packages/cookies) | Manage cookies on iOS & Android | — | [README](./packages/cookies/README.md) |
+| [`@react-native-studio/media-info`](./packages/media-info) | Extract metadata from media files | — | [README](./packages/media-info/README.md) |
 
 ---
 
@@ -85,7 +85,7 @@ yarn test
 Or run tests for a specific package:
 
 ```bash
-yarn workspace @react-native-toolkit/cookies test
+yarn workspace @react-native-studio/cookies test
 ```
 
 ---
@@ -118,5 +118,5 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 🧑‍💻 Maintainers
 
-Developed and maintained by the **React Native Toolkit** team.
+Developed and maintained by the **React Native Studio** team.
 For issues, feature requests, or discussions — open a GitHub issue or reach out via [Discussions](https://github.com/your-repo/discussions).

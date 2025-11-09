@@ -3053,9 +3053,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-toolkit/cookies@workspace:packages/cookies":
+"@react-native-studio/cookies@workspace:packages/cookies":
   version: 0.0.0-use.local
-  resolution: "@react-native-toolkit/cookies@workspace:packages/cookies"
+  resolution: "@react-native-studio/cookies@workspace:packages/cookies"
   dependencies:
     "@release-it/conventional-changelog": "npm:^10.0.1"
     "@types/jest": "npm:^29.5.14"
@@ -3073,9 +3073,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native-toolkit/media-info@workspace:packages/media-info":
+"@react-native-studio/media-info@workspace:packages/media-info":
   version: 0.0.0-use.local
-  resolution: "@react-native-toolkit/media-info@workspace:packages/media-info"
+  resolution: "@react-native-studio/media-info@workspace:packages/media-info"
   dependencies:
     "@release-it/conventional-changelog": "npm:^10.0.1"
     "@types/jest": "npm:^29.5.14"
@@ -10736,9 +10736,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-toolkit@workspace:.":
+"react-native-studio@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-toolkit@workspace:."
+  resolution: "react-native-studio@workspace:."
   dependencies:
     "@commitlint/config-conventional": "npm:^19.8.1"
     "@eslint/compat": "npm:^1.3.2"

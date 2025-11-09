@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-BareApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-BareApp.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		50AE5CB02EAD06C7007E0FD7 /* react-native-toolkit.icon in Resources */ = {isa = PBXBuildFile; fileRef = 50AE5CAF2EAD06C7007E0FD7 /* react-native-toolkit.icon */; };
+		50AE5CB02EAD06C7007E0FD7 /* react-native-studio.icon in Resources */ = {isa = PBXBuildFile; fileRef = 50AE5CAF2EAD06C7007E0FD7 /* react-native-studio.icon */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9888FFD1881AD9B039B4CC29 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
@@ -21,7 +21,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BareApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = BareApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-BareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BareApp.debug.xcconfig"; path = "Target Support Files/Pods-BareApp/Pods-BareApp.debug.xcconfig"; sourceTree = "<group>"; };
-		50AE5CAF2EAD06C7007E0FD7 /* react-native-toolkit.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "react-native-toolkit.icon"; sourceTree = "<group>"; };
+		50AE5CAF2EAD06C7007E0FD7 /* react-native-studio.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "react-native-studio.icon"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-BareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BareApp.release.xcconfig"; path = "Target Support Files/Pods-BareApp/Pods-BareApp.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-BareApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BareApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BareApp/AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		13B07FAE1A68108700A75B9A /* BareApp */ = {
 			isa = PBXGroup;
 			children = (
-				50AE5CAF2EAD06C7007E0FD7 /* react-native-toolkit.icon */,
+				50AE5CAF2EAD06C7007E0FD7 /* react-native-studio.icon */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -163,7 +163,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				50AE5CB02EAD06C7007E0FD7 /* react-native-toolkit.icon in Resources */,
+				50AE5CB02EAD06C7007E0FD7 /* react-native-studio.icon in Resources */,
 				9888FFD1881AD9B039B4CC29 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,13 +261,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-BareApp.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "react-native-toolkit";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "react-native-studio";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 865MCV84KZ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BareApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "React Native Toolkit";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Native Studio";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -279,7 +279,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cmt.react-native-toolkit.--PRODUCT-NAME-rfc1034identifier-";
+				PRODUCT_BUNDLE_IDENTIFIER = "cmt.react-native-studio.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = BareApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -291,12 +291,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-BareApp.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "react-native-toolkit";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "react-native-studio";
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 865MCV84KZ;
 				INFOPLIST_FILE = BareApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "React Native Toolkit";
+				INFOPLIST_KEY_CFBundleDisplayName = "React Native Studio";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +308,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cmt.react-native-toolkit.--PRODUCT-NAME-rfc1034identifier-";
+				PRODUCT_BUNDLE_IDENTIFIER = "cmt.react-native-studio.--PRODUCT-NAME-rfc1034identifier-";
 				PRODUCT_NAME = BareApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

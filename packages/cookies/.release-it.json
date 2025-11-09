@@ -8,10 +8,10 @@
     "after:release": "echo Successfully released ${name} v${version} from repository ${repo.repository}."
   },
   "git": {
-    "commitMessage": "chore: release @react-native-toolkit/cookies ${version}",
+    "commitMessage": "chore: release @react-native-studio/cookies ${version}",
     "requireCleanWorkingDir": true,
-    "tagAnnotation": "Release @react-native-toolkit/cookies v${version}",
-    "tagName": "@react-native-toolkit/cookies:v${version}"
+    "tagAnnotation": "Release @react-native-studio/cookies v${version}",
+    "tagName": "@react-native-studio/cookies:v${version}"
   },
   "npm": {
     "publish": true,

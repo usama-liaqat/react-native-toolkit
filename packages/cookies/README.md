@@ -1,4 +1,4 @@
-# React Native Toolkit Cookies — A Modern Cookie Manager for React Native
+# React Native Studio Cookies — A Modern Cookie Manager for React Native
 
 Cookie Manager for React Native
 
@@ -22,7 +22,7 @@ This module was ported from [joeferraro/react-native-cookies](https://github.com
 ## Installation
 
 ```
-yarn add @react-native-toolkit/cookies
+yarn add @react-native-studio/cookies
 ```
 
 ## Usage
@@ -47,7 +47,7 @@ export interface Cookies {
 ```
 
 ```javascript
-import { CookieManager } from '@react-native-toolkit/cookies';
+import { CookieManager } from '@react-native-studio/cookies';
 
 // set a cookie
 CookieManager.set('http://example.com', {
@@ -138,7 +138,7 @@ To use this _CookieManager_ with WebKit-Support we extended the interface with t
 ##### Usage
 
 ```javascript
-import CookieManager from '@react-native-toolkit/cookies';
+import CookieManager from '@react-native-studio/cookies';
 
 const useWebKit = true;
 
