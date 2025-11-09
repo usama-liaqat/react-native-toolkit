@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c4f1fa2-20d0-49bb-9d2c-d3064d55c052" name="Changes" comment="chore: updated cookies library for ios">
-      <change afterPath="$PROJECT_DIR$/packages/cookies/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/media-info/README.md" afterDir="false" />
+    <list default="true" id="9c4f1fa2-20d0-49bb-9d2c-d3064d55c052" name="Changes" comment="chore: readme file added">
+      <change afterPath="$PROJECT_DIR$/examples/BareApp/src/screens/cookies.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/BareApp/src/screens/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/BareApp/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/examples/BareApp/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/BareApp/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/examples/BareApp/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cookies/Cookies.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/Cookies.podspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cookies/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -122,7 +125,7 @@
       <workItem from="1762240119272" duration="4455000" />
       <workItem from="1762248775691" duration="504000" />
       <workItem from="1762340013178" duration="615000" />
-      <workItem from="1762672245611" duration="2959000" />
+      <workItem from="1762672245611" duration="5056000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -220,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762675082476</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="chore: readme file added">
+      <option name="closed" value="true" />
+      <created>1762676786624</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762676786624</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +258,7 @@
     <MESSAGE value="chore: cookie library added" />
     <MESSAGE value="chore: updated cookies library for android" />
     <MESSAGE value="chore: updated cookies library for ios" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: updated cookies library for ios" />
+    <MESSAGE value="chore: readme file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: readme file added" />
   </component>
 </project>
