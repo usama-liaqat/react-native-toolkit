@@ -2,16 +2,16 @@
   "hooks": {
     "before:init": [
       "rm -Rf lib tsconfig.tsbuildinfo",
-      "yarn run clean",
-      "yarn run prepare"
+      "yarn clean",
+      "yarn prepare"
     ],
     "after:release": "echo Successfully released ${name} v${version} from repository ${repo.repository}."
   },
   "git": {
-    "commitMessage": "chore: release ${version}",
+    "commitMessage": "chore: release @react-native-toolkit/cookies ${version}",
     "requireCleanWorkingDir": true,
-    "tagAnnotation": "Release v${version}",
-    "tagName": "v${version}"
+    "tagAnnotation": "Release @react-native-toolkit/cookies v${version}",
+    "tagName": "@react-native-toolkit/cookies:v${version}"
   },
   "npm": {
     "publish": true,

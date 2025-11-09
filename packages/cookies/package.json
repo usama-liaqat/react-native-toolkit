@@ -12,6 +12,13 @@
     },
     "./package.json": "./package.json"
   },
+  "files": [
+    "android",
+    "ios",
+    "lib/",
+    "src/",
+    "Cookies.podspec"
+  ],
   "scripts": {
     "test": "jest",
     "typecheck": "tsc",
