@@ -16,11 +16,8 @@
     "tagName": "v${version}"
   },
   "npm": {
-    "publish": false,
-    "skipChecks": true,
-    "ignoreVersion": true,
-    "allowSameVersion": true,
-    "publishPath": "dist"
+    "publish": true,
+    "skipChecks": false
   },
   "github": {
     "release": true
