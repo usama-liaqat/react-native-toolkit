@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c4f1fa2-20d0-49bb-9d2c-d3064d55c052" name="Changes" comment="chore: updated cookies library for android">
-      <change afterPath="$PROJECT_DIR$/examples/BareApp/ios/Podfile.lock" afterDir="false" />
+    <list default="true" id="9c4f1fa2-20d0-49bb-9d2c-d3064d55c052" name="Changes" comment="chore: updated cookies library for ios">
+      <change afterPath="$PROJECT_DIR$/packages/cookies/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/media-info/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/BareApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/BareApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cookies/android/src/main/java/com/cookies/CookiesModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/android/src/main/java/com/cookies/CookiesModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cookies/ios/Cookies.h" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/ios/Cookies.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cookies/ios/Cookies.mm" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/ios/Cookies.mm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cookies/src/NativeCookies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/src/NativeCookies.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cookies/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cookies/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,37 +39,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.17.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.17.2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Storage/Libraries/ReactNative/react-native-toolkit/packages/cookies&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.bare-app start.executor&quot;: &quot;Run&quot;,
-    &quot;npm.bare-example start.executor&quot;: &quot;Run&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Volumes/Storage/Libraries/ReactNative/react-native-toolkit/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Volumes/Storage/Libraries/ReactNative/react-native-toolkit/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "22.17.1",
+    "javascript.nodejs.core.library.typings.version": "22.17.2",
+    "last_opened_file_path": "/Volumes/Storage/Libraries/ReactNative/react-native-toolkit/packages/media-info",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.bare-app start.executor": "Run",
+    "npm.bare-example start.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/Volumes/Storage/Libraries/ReactNative/react-native-toolkit/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/Volumes/Storage/Libraries/ReactNative/react-native-toolkit/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/media-info" />
       <recent name="$PROJECT_DIR$/packages/cookies" />
       <recent name="$PROJECT_DIR$/examples/BareApp" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/packages/media-info" />
       <recent name="$PROJECT_DIR$/.yarn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -126,7 +122,7 @@
       <workItem from="1762240119272" duration="4455000" />
       <workItem from="1762248775691" duration="504000" />
       <workItem from="1762340013178" duration="615000" />
-      <workItem from="1762672245611" duration="1203000" />
+      <workItem from="1762672245611" duration="2959000" />
     </task>
     <task id="LOCAL-00001" summary="chore: init">
       <option name="closed" value="true" />
@@ -216,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762247867181</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chore: updated cookies library for ios">
+      <option name="closed" value="true" />
+      <created>1762675082476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762675082476</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +246,7 @@
     <MESSAGE value="chore: init" />
     <MESSAGE value="chore: cookie library added" />
     <MESSAGE value="chore: updated cookies library for android" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: updated cookies library for android" />
+    <MESSAGE value="chore: updated cookies library for ios" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: updated cookies library for ios" />
   </component>
 </project>
