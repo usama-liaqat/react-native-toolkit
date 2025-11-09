@@ -1,13 +1,27 @@
 {
+  "hooks": {
+    "before:init": [
+      "rm -Rf lib tsconfig.tsbuildinfo",
+      "yarn run clean",
+      "yarn run prepare"
+    ],
+    "before:version": "yarn version --new-version ${version} --no-git-tag-version",
+    "after:release": "echo Successfully released ${name} v${version} from repository ${repo.repository}."
+  },
   "git": {
+    "tag": false,
+    "push": false,
     "commitMessage": "chore: release ${version}",
+    "requireCleanWorkingDir": true,
+    "tagAnnotation": "Release v${version}",
     "tagName": "v${version}"
   },
   "npm": {
-    "publish": true
+    "publish": false,
+    "skipChecks": false
   },
   "github": {
-    "release": true
+    "release": false
   },
   "plugins": {
     "@release-it/conventional-changelog": {

@@ -1,6 +1,6 @@
 {
   "name": "@react-native-toolkit/media-info",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Media Info",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
